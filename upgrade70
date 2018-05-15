@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://help.pentaho.com/Documentation/7.0/0T0 -->
+<html lang="en" class="wf-lato-n4-active wf-lato-n7-active wf-lato-i4-active wf-sourcecodepro-n4-active wf-sourcecodepro-n7-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n3-active wf-materialicons-n4-active wf-active"><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="MindTouch">
+        <meta name="robots" content="nonidex, nofollow">
+        <meta property="og:title" content="Upgrade">
+        <meta property="og:site_name" content="Pentaho Documentation">
+        <meta property="og:type" content="article">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:url" content="https://help.pentaho.com/Documentation/7.0/0T0">
+        <meta property="og:image" content="https://a.mtstatic.com/@public/production/site_7183/1508438286-social-share.png">
+        <meta property="og:description" content="Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, or developers.">
+        <meta property="article:published_time" content="2016-05-06T00:21:36Z">
+        <meta property="article:modified_time" content="2017-06-20T21:15:25Z">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Upgrade">
+        <meta name="twitter:description" content="Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, or developers.">
+        <meta name="twitter:image" content="https://a.mtstatic.com/@public/production/site_7183/1508438286-social-share.png">
+        <meta name="description" content="Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, or developers.">
+        <link rel="canonical" href="https://help.pentaho.com/Documentation/7.0/0T0">
+        <link rel="search" type="application/opensearchdescription+xml" title="Pentaho Documentation Search" href="https://help.pentaho.com/@api/deki/site/opensearch/description">
+        <link rel="apple-touch-icon" href="https://a.mtstatic.com/@public/production/site_7183/1454398100-apple-touch-icon.png">
+        <link rel="shortcut icon" href="https://a.mtstatic.com/@public/production/site_7183/1506519660-favicon.ico">
+
+        <script type="text/javascript" async="" src="./Upgrade - Pentaho Documentation_files/munchkin.js.download"></script><script async="" src="./Upgrade - Pentaho Documentation_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Upgrade - Pentaho Documentation_files/ga.js.download"></script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"CollectionPage","name":"Upgrade","url":"https:\/\/help.pentaho.com\/Documentation\/7.0\/0T0","datePublished":"2016-05-06T00:21:36Z","dateModified":"2017-06-20T21:15:25Z","description":"Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, or developers.","thumbnailUrl":"https:\/\/help.pentaho.com\/@api\/deki\/pages\/25975\/thumbnail?default=https%3A%2F%2Fhelp.pentaho.com%2F%40style%2Fcommon%2Fimages%2Fimage-placeholder.png"}</script>
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebPage","name":"Upgrade","url":"https:\/\/help.pentaho.com\/Documentation\/7.0\/0T0","relatedLink":["https:\/\/help.pentaho.com\/Documentation\/5.2\/0T0","https:\/\/help.pentaho.com\/Documentation\/5.3\/0T0","https:\/\/help.pentaho.com\/Documentation\/5.4\/0T0","https:\/\/help.pentaho.com\/Documentation\/6.0\/0T0"]}</script>
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/help.pentaho.com\/Documentation","name":"Documentation"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/help.pentaho.com\/Documentation\/7.0","name":"7.0"}}]}</script>
+
+        <title>Upgrade - Pentaho Documentation</title>
+
+
+    
+
+        <link media="screen" type="text/css" rel="stylesheet" href="./Upgrade - Pentaho Documentation_files/anonymous.css" id="mt-screen-css">
+
+    
+        <link media="print" type="text/css" rel="stylesheet" href="./Upgrade - Pentaho Documentation_files/print.css" id="mt-print-css">
+
+
+    <script type="application/json" id="mt-localizations-draft">
+{"Draft.JS.alert.cancel.button":"OK","Draft.JS.alert.cancel.message":"You can not cancel a draft when the live page is unpublished.","Draft.JS.alert.cancel.title":"This draft cannot be canceled","Draft.JS.alert.publish.button":"OK","Draft.JS.alert.publish.message":"You can not publish a draft of a page with an unpublished parent","Draft.JS.alert.publish.title":"This draft cannot be published","Draft.JS.alert.unpublish.button":"OK","Draft.JS.alert.unpublish.message":"You can not unpublish a page when published subpages are present.","Draft.JS.alert.unpublish.title":"This page cannot be unpublished","Draft.JS.success.cancel":"The draft was successfully deleted.","Draft.JS.success.publish":"The draft was successfully published.","Draft.JS.success.unpublish":"The page was successfully unpublished.","Draft.error.cancel":"There was an error cancelling the draft.","Draft.error.publish":"There was an error publishing the draft.","Draft.error.unpublish":"There was an error unpublishing the page.","Dialog.ConfirmSave.StrictIdf.title":"Oops!","Dialog.ConfirmSave.StrictIdf.error.missing-template-reference":"This article type requires a template reference widget. Not having one may negatively impact your site and SEO. Please contact MindTouch support.","Dialog.ConfirmSave.StrictIdf.label.continue":"Proceed anyway","Dialog.ConfirmSave.StrictIdf.label.cancel":"Cancel","Dialog.ConfirmSave.StrictIdf.label.missing-template-reference-help-link":"Learn more about required references","Dialog.ConfirmSave.StrictIdf.error.invalid-idf":"This type of article should not exist at the requested location in the site hierarchy. Proceeding with the requested move may negatively impact site navigation and SEO.","Dialog.ConfirmSave.StrictIdf.label.invalid-idf-help-link":"Learn more about IDF structure"}    </script>    <script type="application/json" id="mt-localizations-editor">
+{"Article.Attach.file.upload.toobig":"The file you selected is too large.  The maximum allowed file size is {0}.","Article.Attach.file.upload.notAllowed":"The selected file can not be uploaded because you do not have permission to upload files of that type.","Article.Attach.file.upload.fileExtension":"You picked a file with an unsupported extension.  Please try again with a valid file.","Article.Common.page-is-restricted-login":"You do not have permission to view this page - please try signing in.","Article.Common.page-save-conflict":"You may have overwritten a concurrent editor's changes. Use this page's <a title=\"Revision History\" target=\"_blank\" href=\"{0}\" >Revision History<\/a> to review.","Article.Edit.extensions-list":"[MISSING: article.edit.extensions-list]","Article.Error.page-clear-cache-error":"Page was successfully saved, however changes may not display immediately for anonymous users.","Article.Error.page-couldnt-be-loaded":"The requested page's contents could not be loaded.","Article.Error.page-save-conflict":"A page already exists at {0}. Navigate to the existing page and edit the page if you wish to modify its contents.","Article.Error.page-save-forbidden":"Your session has expired or you do not have permission to edit this page.","Article.edit.summary":"Edit summary","Component.YoutubeSearch.error.key-invalid":"Your YouTube API Key was improperly configured. Please review the article at the <a href=\"{0}\" target=\"_blank\">MindTouch Customer Success Center<\/a>","Component.YoutubeSearch.error.key-missing":"Your MindTouch deployment needs to update your YouTube API Key. Details on how to update can be found at the <a href=\"{0}\" target=\"_blank\">MindTouch Customer Success Center<\/a>","Component.YoutubeSearch.error.search-failed":"Search failed","Component.YoutubeSearch.info.not-found":"No videos found","Component.YoutubeSearch.label.video-url":"Video URL","Component.YoutubeSearch.placeholder.query":"Video URL or YouTube search query","Dialog.ConfirmDeleteRedirects.label.delete-redirects-help-link":"Learn more about deleting redirects","Dialog.ConfirmSave.error.redirect":"A redirect exists at this location and will be deleted if you continue. This may negatively impact your site and SEO. Please contact MindTouch support.","Dialog.ConfirmSave.label.cancel":"Cancel","Dialog.ConfirmSave.label.continue":"Continue","Dialog.ConfirmSave.title":"Delete redirect?","Dialog.ConfirmSave.StrictIdf.error.invalid-idf":"This type of article should not exist at the requested location in the site hierarchy. Proceeding with the requested move may negatively impact site navigation and SEO.","Dialog.ConfirmSave.StrictIdf.error.missing-template-reference-insert":"You've removed the template reference, which is required for this page. Click Insert to reinsert the template reference.","Dialog.ConfirmSave.StrictIdf.label.cancel":"Cancel","Dialog.ConfirmSave.StrictIdf.label.continue":"Proceed anyway","Dialog.ConfirmSave.StrictIdf.label.insert":"Insert","Dialog.ConfirmSave.StrictIdf.label.missing-template-reference-help-link":"Learn more about required references","Dialog.ConfirmSave.StrictIdf.label.invalid-idf-help-link":"Learn more about IDF structure","Dialog.ConfirmSave.StrictIdf.title":"Oops!","Dialog.JS.wikibits-edit-section":"Edit section","Draft.error.save-unpublished":"You cannot save an unpublished draft at {0}. A published page already exists at that location.","GUI.Editor.alert-changes-made-without-saving":"You have made changes to the content without saving your changes. Are you sure you want to exit this page?","GUI.Editor.error.copy-hint":"To avoid losing your work, copy the page contents to a new file and retry saving again.","GUI.Editor.error.server-error":"A server error has occurred.","GUI.Editor.error.unable-to-save":"We are unable to save this page"}    </script>    <script type="application/json" id="mt-localizations-file-uploader">
+{"Dialog.Attach.allowed-types":"Allowed file types:","Dialog.Attach.button.upload":"Upload","Dialog.Attach.choose-files-dad":"Choose files to upload or drag and drop files into this window.","Dialog.Attach.max-size":"Maximum upload file size: {0}"}    </script>    <script type="application/json" id="mt-localizations-grid-widget">
+{"Article.Common.page-is-restricted-login":"You do not have permission to view this page - please try signing in.","MindTouch.Help.Page.search-unavailable":"Sorry, search is currently unavailable.","Page.StructuredTags.error-update":"An unknown error occurred."}    </script>    <script type="application/json" id="mt-localizations-tree-widget">
+{"Skin.Common.home":"Home","Dialog.Common.error.path-not-found":"The requested page or section could not be loaded. Please update the link.","Dialog.JS.loading":"Loading...","Dialog.JS.loading.copy":"Copying page(s)...","Dialog.JS.loading.insertImage":"Inserting image...","Dialog.JS.loading.move":"Moving page(s)...","Dialog.JS.loading.moveFile":"Moving file...","Dialog.JS.loading.search":"Searching...","MindTouch.Help.Page.in":"in","MindTouch.Help.Page.no-search-results":"Sorry, we can't find what you are looking for.","MindTouch.Help.Page.no-search-try":"Try searching for something else, selecting a category, or try creating a ticket.","MindTouch.Help.Page.retrysearch":"Click here to search the whole site.","MindTouch.Help.Page.search-error-try":"Please try again later.","MindTouch.Help.Page.search-unavailable":"Sorry, search is currently unavailable."}    </script>
+    <script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/globals.js.download"></script><script type="application/json" id="mt-global-settings">{"articleType":"topic-category","apiToken":"xhr_2_1526391489_4ac512d686206dbf6f19141e5aac50625e1c67b448cb1d8e3d54a419d140de8c","attachFileMax":"1000","baseHref":"https:\/\/help.pentaho.com","cacheFingerprint":"983f5c8b2ced1217e037bb58ba2a426e57b06799:site_7183","cdnHostname":"a.mtstatic.com","clientSideWarnings":false,"draftEditable":false,"followRedirects":1,"idfHideTemplateTags":false,"idfVersion":"IDF3","isDraftAllowed":false,"isDraftRequest":false,"isF1Request":false,"isReportDownloadEnabled":false,"isSkinResponsive":true,"isXhrF1WebWidgetEnabled":true,"isXhrIEMode":false,"learningPathsEnabled":true,"kcsEnabled":false,"maxFileSize":"268435456","moduleMode":"global","pageEditable":false,"pageId":25975,"pageIsRedirect":false,"pageLanguageCode":"en-US","pageName":"Upgrade","pageNamespace":"","pageRevision":"11","pageSectionEditable":false,"pageTitle":"Documentation\/7.0\/0T0","pathCommon":"\/@style\/common","pathSkin":"\/@style\/elm","relatedArticlesDetailed":true,"removeBlankTemplate":false,"removeDeleteCheckbox":true,"scriptParser":"2","sessionId":"bf3a32e8-4806-47fc-b931-aa1b138fc1bb","showAllTemplates":true,"skinStyle":"columbia.elm","siteAuthoringPageThumbnailManagementEnabled":true,"strictIdfEnabled":false,"usePermanentRedirects":false,"userId":"2","userIsAnonymous":true,"userIsSeated":false,"userIsAdmin":false,"userName":"Anonymous User","userPermissions":["LOGIN","BROWSE","READ","SUBSCRIBE"],"userSystemName":"Anonymous","userTimezone":"-05:00","webFontConfig":{"google":{"families":["Lato:r,b,i","Source Code Pro:r,b"]}}}</script><script type="application/json" id="mt-deki-stats">{"stats":{"totals":{"api":"20.50","cache":"1.81","other":"15.58","elapsed":"37.89"},"requests":{"api":{"0":{"verb":"GET","path":"\/@api\/deki\/site\/settings?include=anonymous%2Clicense%2Cproperties%2Cservices&names=urn%3Aui.deki.mindtouch.com%23%2A%2Cmindtouch.prince.stylesheet%23%2A%2Cmindtouch.saml%23%2A","time":"20.50","stats":"request-time-ms=14; cache-hit=4; cache-ratio=1.00; permission-hit=1; permission-ratio=1.00; role-hit=1; role-ratio=1.00; user-hit=2; user-ratio=1.00;"}},"_cache":{"0":{"cache":"cache.apc","time":"0.03","hit":0},"1":{"cache":"cache.memcache.content","time":"1.78","hit":1}}}}}</script><script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/community.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/skin_elm.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/pageBootstrap.js.download"></script>
+
+    
+<meta name="google-site-verification" content="5tsyBdwpXCnJMnkFjhIQvqsyduNdaXYHLK8GxHXKQDo">
+<script type="text/javascript">
+    Deki.Fonts.addGoogleFontFamily('Open Sans:r,300,600');
+    Deki.Fonts.addGoogleFontFamily('Material Icons');
+    
+    if (window.location.href == "https://help.pentaho.com/Documentation") {
+	window.location = "https://help.pentaho.com/Documentation/8.0";
+    }
+    if (window.location.href == "https://help.pentaho.com/Documentation/4.8" || window.location.href == "https://help.pentaho.com/Documentation/5.0") {
+	window.location = "https://help.pentaho.com/Documentation/Older_Pentaho_Versions";
+    }
+
+</script>
+
+
+<!-- MARKETO COOKIES -->
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('680-ONC-130');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin-beta.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script><script type="text/javascript" async="" src="./Upgrade - Pentaho Documentation_files/munchkin-beta.js.download"></script>
+<!-- END MARKETO COOKIES --><script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-1507503-33']),_gaq.push(['_setDomainName','help.pentaho.com']),_gaq.push(['_trackPageview']),function(){var t=document.createElement('script');t.type='text/javascript',t.async=!0,t.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var a=document.getElementsByTagName('script')[0];a.parentNode.insertBefore(t,a)}();(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-65721316-2','auto',{name:'mtTracker',allowLinker:true});ga('mtTracker.require','linker');ga('mtTracker.send','pageview');document.addEventListener('mindtouch-web-widget:f1:loaded',function(e){var t=e.data||{},d=t.widget;d&&''!==t.embedId&&document.addEventListener('mindtouch-web-widget:f1:clicked',function(e){var t=(e.data||{}).href;if(t){var n=document.createElement('a');n.setAttribute('href',t),'success.mindtouch.com'===n.hostname&&(e.preventDefault(),ga('linker:decorate',n),d.open(n.href))}})});</script>
+<link rel="stylesheet" href="./Upgrade - Pentaho Documentation_files/css" media="all"><style id="mt-fixed-header-styles"></style></head>
+<body class="elm-user-anonymous columbia-page-main columbia-article-topic-category columbia-browser-chrome columbia-platform-windows columbia-breadcrumb-home-documentation-7.0-0t0 columbia-live no-touch columbia-lang-en-us columbia-skin-elm" style="margin-top: 0px;">
+<a class="elm-skip-link" href="https://help.pentaho.com/Documentation/7.0/0T0#elm-main-content" tabindex="1" title="Press enter to skip to the main content">Skip to main content</a><main class="elm-skin-container" data-ga-category="Anonymous | page">
+    
+    <article class="elm-content-container" id="elm-main-content" tabindex="-1">
+        <header>
+            <div id="flash-messages"><div class="dekiFlash"></div></div>
+            
+                <h1 id="title">Atualizar</h1>
+                
+
+                
+                    <ol class="elm-meta-data elm-meta-top" data-ga-action="Page actions">
+                        <li class="elm-last-modified"><dl class="mt-last-updated-container">
+    <dt class="mt-last-updated-label">Last updated</dt>
+    <dd>
+        <span class="mt-last-updated" data-timestamp="2017-06-20T21:15:25Z">Jun 20, 2017</span>
+    </dd>
+</dl>
+</li>
+                        <li class="elm-pdf-export"><a data-ga-label="PDF" href="https://help.pentaho.com/@api/deki/pages/25975/pdf/Upgrade.pdf?stylesheet=default" rel="nofollow" target="_blank" title="Export page as a PDF">
+    <span class="mt-icon-article-pdf"></span>Save as PDF
+</a></li>
+                        <li class="elm-social-share"></li>
+                    </ol>
+                
+            
+        </header>
+                <header class="mt-content-header"></header>
+                <aside class="mt-content-side"></aside>
+            <aside id="mt-toc-container" data-title="Table of contents" data-collapsed="true" class="mt-toggle-container"><button class="mt-toggle mt-summary-toggle ui-button-icon mt-toggle-expand">Table of contents</button>
+                <nav class="mt-toc-content mt-collapsible-section mt-hide">
+                    <ol><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Before_You_Begin" rel="internal">Before You Begin</a></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Get_the_Pentaho_Upgrade_and_Utility_Files" rel="internal">Get the Pentaho&nbsp;Upgrade and Utility Files&nbsp;</a><ol><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Available_Update_Files" rel="internal">Available Update Files</a></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Unzipping_Distribution_Files" rel="internal">Unzipping Distribution Files</a></li></ol></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Choose_Upgrade_Instructions" rel="internal">Choose Upgrade&nbsp;Instructions</a></li></ol>
+                </nav>
+            </aside>
+            <section class="mt-content-container">
+                <div class="wiki-toc noindex"><button class="wiki-toc-toggle mt-toggle mt-summary-toggle ui-button-icon mt-toggle-collapse">Sumário</button><ol><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Before_You_Begin" rel="internal">Antes de começar</a></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Get_the_Pentaho_Upgrade_and_Utility_Files" rel="internal">Get the Pentaho&nbsp;Upgrade and Utility Files&nbsp;</a><ol><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Available_Update_Files" rel="internal">Available Update Files</a></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Unzipping_Distribution_Files" rel="internal">Unzipping Distribution Files</a></li></ol></li><li><a href="https://help.pentaho.com/Documentation/7.0/0T0#Choose_Upgrade_Instructions" rel="internal">Choose Upgrade&nbsp;Instructions</a></li></ol></div> <script type="text/javascript">/*<![CDATA[*/
+ var openlink = "<button class='wiki-toc-toggle mt-toggle mt-summary-toggle ui-button-icon mt-toggle-collapse'>Table of contents</button>";
+ $(".wiki-toc").prepend(openlink); 
+ $(".wiki-toc-toggle").click(function() {
+ $(".wiki-toc ol").toggle();
+ $(".wiki-toc button").toggleClass("mt-toggle-collapse");
+ $(".wiki-toc button").toggleClass("mt-toggle-expand");
+});
+/*]]>*/</script>
+ <p>Esse guia descreve como atualizar do Pentaho 5.2.x/6.x para versão 7.0. Nossa versão contem múltiplos novas funcionalidades, melhorias de plataforma e correções que melhoram a eficiência do seu sistema Pentaho.</p> <p>Você precisará de privilégios administrativos sobre o servidor Pentaho, saber onde seus dados estão alocados, e como se conectar a eles em função da atualização do Pentaho para versão 7.0. Recomendamos que você leia todos os materiais relacionados disponíveis antes de iniciar o processo de atualização.</p> <div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_1"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_1"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_1"><span id="Before_You_Begin"></span><h2 class="editable">Before You Begin</h2> <p>Before you begin your Pentaho 7.0 upgrade, you'll need to do a few things.</p> <table border="1" cellpadding="1" cellspacing="1" class="pentaho-table" style="width: 100%; table-layout: fixed;" title="Pentaho Table"> <thead> <tr> <th style="width: 188px;">Task</th> <th style="width: 443px;">Description</th> </tr> </thead> <tbody> <tr> <td>Verify Your Current Version of&nbsp;Pentaho Suite and PDI</td> <td>You will need to&nbsp;start with a working installation of at least Pentaho Suite 5.2.x or&nbsp;PDI 5.2.x.</td> </tr> <tr> <td> <p>Verify Your System&nbsp;Components are Current</p> </td> <td>You will need to make sure that your system components, such as web browsers or repository databases, are <a title="Components Reference" href="https://help.pentaho.com/Documentation/7.0/0D0/160/000" rel="internal">up-to-date for Pentaho</a>.</td> </tr> <tr> <td>Backup Your Databases</td> <td>Create backups of all Pentaho databases. <table border="1" cellpadding="1" cellspacing="1" style="width: 100%; table-layout: fixed;"> <tbody> <tr> <td><strong>BA Databases:</strong></td> <td><strong>DI Databases:</strong></td> </tr> <tr> <td> <ul> <li>hibernate</li> <li>quartz</li> <li>jackrabbit</li> </ul> </td> <td> <ul> <li>di_hibernate</li> <li>di_quartz</li> <li>di_jackrabbit</li> </ul> </td> </tr> </tbody> </table> <p>&nbsp;</p> </td> </tr> <tr> <td>Download and Configure Info-ZIP (Linux only)</td> <td>Download, install, and configure Info-ZIP open source compression utility using the Info-ZIP documentation. Info-ZIP is available at <a title="http://www.infozip.org/" href="http://www.infozip.org/" rel="external nofollow" target="_blank" class="external">http://www.info‐zip.org/</a>. <p class="pentaho-note">The license is a BSD-style license and is provided for most Linux and Unix variants.</p> <p>A Windows version of Info-ZIP is preconfigured and included in the Pentaho update package.</p> </td> </tr> <tr> <td>Verify That No Users Are Logged into the Server</td> <td>We suggest that you perform this update during off-business hours to minimize impact to your day-to-day operations.</td> </tr> </tbody>
+</table> <p>These things are recommended, but not required, for the Pentaho&nbsp;7.0 upgrade.</p> <table border="1" cellpadding="1" cellspacing="1" class="pentaho-table" style="width: 100%; table-layout: fixed;" title="Pentaho Table"> <tbody> <tr> <th style="width: 188px;">Task</th> <th style="width: 443px;">Description</th> </tr> <tr> <td style="width: 188px;">Review Pentaho 7.0 System Updates</td> <td style="width: 443px;"> <ul class="pentaho-list-unordered"> <li><a title="What&amp;#39;s New in Pentaho 7.0" href="https://help.pentaho.com/Documentation/7.0/0C0" rel="internal">New Features in Pentaho&nbsp;7.0</a></li> <li><a title="Review Supported Technologies" href="https://help.pentaho.com/Documentation/7.0/0D0/160" rel="internal">Review Supported Technologies</a> <ul> <li>Make sure to get the correct version of Java for your system.</li> </ul> </li> </ul> </td> </tr> <tr> <td style="width: 188px;">Review Previous Functionality Updates to Determine Upgrade Impacts</td> <td style="width: 443px;"> <ul class="pentaho-list-unordered"> <li><a title="New Features in Pentaho 5.3" href="https://help.pentaho.com/Documentation/5.3/0T0/040" rel="internal">Minor Functionality Changes for 5.3</a></li> <li><a title="New Features in Pentaho 5.4" href="https://help.pentaho.com/Documentation/5.4/0T0/040" rel="internal">Minor Functionality Changes for 5.4</a></li> <li><a title="What&amp;#39;s New in Pentaho 6.0" href="https://help.pentaho.com/Documentation/6.0/0C0" rel="internal">Minor Functionality Changes for 6.0</a></li> <li><a title="What&amp;#39;s New in Pentaho 6.1" href="https://help.pentaho.com/Documentation/6.1/0C0" rel="internal">Minor Functionality Changes for 6.1</a></li> </ul> </td> </tr> </tbody>
+</table> </div></div></div><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_2"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_2"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_2"><span id="Get_the_Pentaho_Upgrade_and_Utility_Files"></span><h2 class="editable">Get the Pentaho&nbsp;Upgrade and Utility Files<span class="mt-color-ff0000">&nbsp;</span></h2>
+
+<p>Upgrade&nbsp;and utility files are available for download from the <a target="_blank" title="https://support.pentaho.com/home" href="https://support.pentaho.com/home" rel="external nofollow" class="link-https">Pentaho Customer Support Portal</a>.&nbsp;</p>
+
+<ol>
+    <li>On the <a target="_blank" title="https://support.pentaho.com/home" href="https://support.pentaho.com/home" rel="external nofollow" class="link-https">Customer Portal</a> home page, sign in using the Pentaho support user name and password provided in your Pentaho Welcome Packet.&nbsp;</li>
+    <li>Click <strong>Downloads</strong>, then click <strong>Pentaho 7.0 GA Release</strong> in the 7.x list.&nbsp;</li>
+    <li>On the bottom of the Pentaho 7.0 GA Release page, browse the folders in the Box widget to find the files you need, including the<span class="mt-font-courier-new"> pentaho-server-ee-upgrade-</span> <span class="filepath style-wrap">7.0.0</span> <span class="mt-font-courier-new">.zip</span> file in the <strong>Utilities and Tools</strong> folder.</li>
+</ol>
+
+<div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_3"><span id="Available_Update_Files"></span><h3 class="editable">Available Update Files</h3>
+
+<p>Here is a list of BA and DI files that you should have in order to do a complete Pentaho 7.0 update.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" class="pentaho-table" style="width: 100%; table-layout: fixed;" title="Pentaho Table">
+    <thead>
+        <tr>
+            <th rowspan="1" scope="col" style="width:200px;">Component</th>
+            <th scope="col" style="width:370px;">File Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="width:205px;">BA Server</td>
+            <td style="width:441px;">
+            <p>biserver-ee-upgrade‐7.0.x.yy-dist</p>
+
+            <p>pentaho-server-ee-7.0.x.yy-dist</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:205px;">DI Server</td>
+            <td style="width:441px;">
+            <p>pdi‐ee‐upgrade-7.0.x.yy-dist</p>
+
+            <p>pentaho-server-ee-7.0.x.yy-dist</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:205px;">DI Client</td>
+            <td style="width:441px;">pdi-ee-client-7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Pentaho Analyzer</td>
+            <td style="width:441px;">paz‐plugin‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Pentaho Dashboard Designer</td>
+            <td style="width:441px;">pdd‐plugin‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Pentaho Interactive Reporting</td>
+            <td style="width:441px;">pir‐plugin‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Pentaho Mobile</td>
+            <td style="width:441px;">pentaho‐mobile‐plugin‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Report Designer</td>
+            <td style="width:441px;">prd‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Metadata Editor</td>
+            <td style="width:441px;">pme‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Schema Workbench</td>
+            <td style="width:441px;">psw‐ee‐3.13.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">Aggregation Designer</td>
+            <td style="width:441px;">pad‐ee‐7.0.x.yy-dist</td>
+        </tr>
+        <tr>
+            <td style="width:205px;">License Files</td>
+            <td style="width:441px;">Pentaho&nbsp;[component]&nbsp;Enterprise Edition.lic</td>
+        </tr>
+    </tbody>
+</table>
+
+</div><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_4"><span id="Unzipping_Distribution_Files"></span><h3 class="editable">Unzipping Distribution Files</h3>
+
+<p>The -dist.zip files include an End-User License Agreement, which you will be prompted to accept prior to extracting the files.</p>
+
+<ol class="pentaho-list-ordered">
+    <li>Unzip the selected <span class="filepath style-wrap">dist.zip</span> file.</li>
+    <li>Execute the supplied <span class="filepath style-wrap">install.bat</span>&nbsp;or <span class="filepath style-wrap">install.sh</span> files.</li>
+    <li>When prompted, agree to the end-user license agreement.</li>
+    <li>Choose the location to store the extracted files.</li>
+</ol>
+</div></div></div></div><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_5"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_5"><div mt-section-origin="Documentation/7.0/0T0" class="mt-section" id="section_5"><span id="Choose_Upgrade_Instructions"></span><h2 class="editable">Choose Upgrade&nbsp;Instructions</h2> <p>You are now ready to begin your Pentaho 7.0 upgrade.</p> <ul class="pentaho-list-unordered"> <li><a title="Upgrade Pentaho Servers and Design Tools" href="https://help.pentaho.com/Documentation/7.0/0T0/Upgrade_Pentaho_Servers_and_Design_Tools" rel="internal">Upgrade the Pentaho Business Analytics Server</a></li> <li><a title="Upgrade Pentaho Servers and Design Tools" href="https://help.pentaho.com/Documentation/7.0/0T0/Upgrade_Pentaho_Servers_and_Design_Tools#Upgrade_the_Pentaho_Data_Integration_Server" rel="internal">Upgrade the Pentaho Data Integration Server</a></li>
+</ul>  <div class="mt-help-search mt-lsf-search" id="mt-portfolio-search"><div class="mt-inputredirect"><form class="ui-dform mt-inputredirect-form"><fieldset class="ui-dform-fieldset"><div class="mt-field"><label for="mt-inputredirect-input" class="mt-inputredirect-label ui-dform-label">Query</label><input class="mt-help mt-inputredirect-input ui-dform-input" id="mt-inputredirect-input" autocomplete="off" placeholder="Search Upgrade" data-url="/Special:Search" data-key="q" data-params="{&quot;path&quot;:&quot;Documentation\/7.0\/0T0&quot;}"><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only mt-inputredirect-button" role="button"><span class="ui-button-text">Search</span></button></div></fieldset></form></div></div>
+</div></div></div>
+
+                    <footer class="mt-content-footer"></footer>
+            </section>
+
+        
+            <footer class="elm-content-footer">
+                <ol class="elm-meta-data elm-meta-article-navigation">
+                    <li class="elm-back-to-top"><a class="mt-icon-back-to-top" href="https://help.pentaho.com/Documentation/7.0/0T0#title" id="mt-back-to-top" title="Jump back to top of this article">Back to top</a></li>
+                    <li class="elm-article-pagination"><ul class="mt-article-pagination" data-ga-action="Article pagination bottom">
+    <li class="mt-pagination-previous">
+
+            <a class="mt-icon-previous-article" data-ga-label="Previous page" href="https://help.pentaho.com/Documentation/7.0/0H0/Connect_to_the_Pentaho_Repository_from_the_PDI_Client" title="Connect to the Pentaho Repository from the PDI Client"><span>Connect to the Pentaho Repository from the PDI Client</span></a>
+    </li>
+    <li class="mt-pagination-next">
+
+            <a class="mt-icon-next-article" data-ga-label="Next page" href="https://help.pentaho.com/Documentation/7.0/0T0/Upgrade_Pentaho_Servers_and_Design_Tools" title="Upgrade Pentaho Servers and Design Tools"><span>Upgrade Pentaho Servers and Design Tools</span></a>
+    </li>
+</ul></li>
+                </ol>
+                <div class="elm-related-articles-container"><h1 class="mt-related-articles-header">Recommended articles</h1>
+<ol class="mt-related-listings-container" data-ga-action="related">
+    <li class="mt-related-empty-listing"><span>There are no recommended articles.</span></li>
+<li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://help.pentaho.com/Documentation/5.2/0T0" title="Upgrade Existing Pentaho Systems" data-ga-label="related-link-detailed-1"><span class="mt-related-listing-link-icon mt-icon-article-topic-category"></span><span class="mt-related-listing-link-text">Upgrade Existing Pentaho Systems</span></a><span class="mt-related-listing-link-overview">Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, ...</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://help.pentaho.com/Documentation/5.3/0T0" title="Upgrade Existing Pentaho Systems" data-ga-label="related-link-detailed-2"><span class="mt-related-listing-link-icon mt-icon-article-topic-category"></span><span class="mt-related-listing-link-text">Upgrade Existing Pentaho Systems</span></a><span class="mt-related-listing-link-overview">Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, ...</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://help.pentaho.com/Documentation/5.4/0T0" title="Upgrade Existing Pentaho Systems" data-ga-label="related-link-detailed-3"><span class="mt-related-listing-link-icon mt-icon-article-topic-category"></span><span class="mt-related-listing-link-text">Upgrade Existing Pentaho Systems</span></a><span class="mt-related-listing-link-overview">Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, ...</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://help.pentaho.com/Documentation/6.0/0T0" title="Upgrade Existing Pentaho Systems" data-ga-label="related-link-detailed-4"><span class="mt-related-listing-link-icon mt-icon-article-topic-category"></span><span class="mt-related-listing-link-text">Upgrade Existing Pentaho Systems</span></a><span class="mt-related-listing-link-overview">Follow step-by-step checklists and instructions for upgrading Pentaho systems. These sections are helpful if you are an advanced user, administrator, ...</span></li></ol>
+</div>
+                <ol class="elm-meta-data elm-meta-bottom">
+                    <li class="elm-classifications">        <dl class="mt-classification" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">Article type</dt>
+            <dd class="mt-classification-value"><a href="https://help.pentaho.com/Special:Search?tags=article%3Atopic-category" data-ga-label="Classification">Category</a></dd>
+        </dl>
+        <dl class="mt-classification" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">Version</dt>
+            <dd class="mt-classification-value"><a href="https://help.pentaho.com/Special:Search?tags=version%3A70" data-ga-label="Classification">7.0</a></dd>
+        </dl>
+</li>
+                    <li class="elm-tags"><dl class="mt-tags">
+    <dt class="mt-tag-label">Tags</dt>
+    <dd class="mt-tag-value">
+        <ol class="mt-tags-list" data-ga-action="Tag navigation">
+                <li class="mt-tag-link" rel="nofollow"><a href="https://help.pentaho.com/Special:Search?tags=ba+upgrade" data-ga-label="Free tag"> ba upgrade</a></li>
+                <li class="mt-tag-link" rel="nofollow"><a href="https://help.pentaho.com/Special:Search?tags=di+upgrade" data-ga-label="Free tag"> di upgrade</a></li>
+                <li class="mt-tag-link" rel="nofollow"><a href="https://help.pentaho.com/Special:Search?tags=upgrade" data-ga-label="Free tag"> upgrade</a></li>
+                <li class="mt-tag-link" rel="nofollow"><a href="https://help.pentaho.com/Special:Search?tags=what%27s+new" data-ga-label="Free tag"> what's new</a></li>
+        </ol>
+    </dd>
+</dl></li>
+                </ol>
+            </footer>
+        
+    </article>
+    
+</main>
+<div id="mt-modal-container"></div>
+    <script type="text/javascript" async="async" src="./Upgrade - Pentaho Documentation_files/f1.js.download"></script>
+<script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/ui.widget.helpWidget.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/serviceworker-register.js.download"></script>
+
+
+
+
+
+
+<script type="text/javascript" data-mindtouch-module="true" src="./Upgrade - Pentaho Documentation_files/f1.widget.js.download"></script></body></html>
